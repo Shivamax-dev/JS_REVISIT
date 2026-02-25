@@ -5,6 +5,7 @@
 let name = "Shivam"
 let age = 20
 let isloggedin = true
+let Null;
 let state;
 
 //number => 2 to the power 20
