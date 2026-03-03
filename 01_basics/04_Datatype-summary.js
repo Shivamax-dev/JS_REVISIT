@@ -31,4 +31,14 @@ const myFunction = function(){
 
 //How to know data type ???  => Use "typeOf"
 
+//__________________________________ Memory Type _______________________
+// 1] Stack(Use where the data type is Primitive)      
+// 2] Heap(Use where the data type is non-primitive)\
 
+let myEmail = "udontneedtoknow@gmail.com"
+
+let anotherEmail = secondEmail;
+anotherEmail = "pratyushji@gmail.com"
+
+console.log(myEmail);
+console.log(anotherEmail);
