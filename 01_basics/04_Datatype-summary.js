@@ -14,5 +14,21 @@ console.log(Id == anotherId)  //In JS, == (double equals) is the loose equality 
 const bigNumber = 252756982450794n;
 console.log(typeof bigNumber);
 
+
 //Non-Primitive(Refernce) : Array, Object, Function
+const heroes = ["Shivam", "Pratyush", "Anand"]
+
+let objname = {
+    name: "Shivam",   //Object defined in key pair values
+    age: 22,
+}
+
+
+const myFunction = function(){
+    console.log("Hello World");
+}
+
+
+//How to know data type ???  => Use "typeOf"
+
 
